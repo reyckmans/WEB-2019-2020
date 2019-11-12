@@ -1,0 +1,17 @@
+1) maak met css en html een rode ronde cirkel aan, deze cirkel beweegt van links naar rechts over het scherm en weer terug.
+
+2) Onder bovenstaande circkel, maar je een img aan. Ook deze image beweegt van links naaar rechts en weer terug.
+
+Bij het naar rechts bewegen draait de image om zijn Y as, bij het terug bewegen om zijn Z as.
+
+ 
+
+3) Maak een animation (in een div) die de background van de div laat veranderen over verschillende afbeeldingen.
+
+4) Zelfde als 3, maar nu als extra dat de afbeeldingen een overgang moeten hebben waarbij de opacity tijdelijk op 50% wordt geplaatst.
+
+ 
+
+5) css 3d cube: https://3dtransforms.desandro.com/cube
+
+6) 3d cube, met afbeeldingen

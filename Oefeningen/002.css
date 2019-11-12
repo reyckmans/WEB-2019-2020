@@ -1,0 +1,22 @@
+table{
+    border-style: solid;
+    margin: 10px;
+}
+.eenClass{
+    border-style: solid;
+}
+#eenId{
+    border-style: solid;
+    border-color: red;
+}
+#tweeId{
+    border-style: solid;
+    border-color: blue;
+    background-color: aqua;
+}
+#tabelTwee{
+    position: relative;
+    left: 200px;
+    bottom: 100px;
+    z-index: 
+}

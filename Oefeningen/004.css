@@ -1,0 +1,65 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+li {
+  text-align: center;
+}
+
+li a {
+  display: block;
+  color: black;
+  padding: 10px 40px;
+  text-decoration: none;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+a:hover{
+  background-color: #555;
+  color: white;
+}
+
+
+
+
+
+
+ul.horizontaal li{
+    float: left;
+}
+
+#blijftboven{
+    position: fixed; 
+    width: 100%;
+}
+
+#foto{
+    width: 20%;
+}
+
+
+
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+

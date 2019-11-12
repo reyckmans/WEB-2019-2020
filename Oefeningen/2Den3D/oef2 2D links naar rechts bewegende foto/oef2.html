@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Example Title</title>
+    <style>
+        #cirkel{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            border-radius: 50px;
+            position: relative;
+            animation-name: bewegen;
+            animation-duration: 6s;
+            animation-iteration-count: infinite;
+        }
+        
+        @keyframes bewegen{
+
+            0%      {left: 0px;}
+            50%     {left: 95%;}
+            100%    {left: 0px;}
+        }
+        
+        #afbeelding{
+             width: 100px;
+            height: 100px;
+            position: relative;
+            animation-name: bewegen2;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+        }
+        
+        @keyframes bewegen2{
+            0%      {left: 0px;}
+            50%     {left: 90%;}
+            100%    {left: 0px;}
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <div style="width:100%;">
+    
+            <div id="cirkel"></div>
+        </div>
+    
+    <div id="afbeelding"><img id="afbeelding" src="air-jordan-1-retro-high-og-cool-blue-mens-shoe-oe8vo8-1488.jpg"></div>
+</body>
+
+</html>
