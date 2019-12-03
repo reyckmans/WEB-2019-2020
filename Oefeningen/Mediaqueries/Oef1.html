@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Title </title>
+    <style>
+        ul {
+            display: flex;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            width: 100%;
+            background-color: #f1f1f1;
+        }
+
+        li {
+            text-align: center;
+        }
+
+        li a {
+            display: block;
+            color: black;
+            padding: 10px 40px;
+            text-decoration: none;
+        }
+
+        a.active {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        a:hover {
+            background-color: #555;
+            color: white;
+        }
+
+        .dropbtn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+
+
+
+
+
+        .flex-Container {
+            display: flex;
+            height: auto;
+            flex-wrap: wrap;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 3%;
+            margin-right: 3%;
+            justify-content: center;
+            background-color: dodgerblue;
+        }
+
+        .flex-Container>div {
+            margin: 1%;
+        }
+
+        .flex-Container>div>img {
+            /*alles img die onder een div staan en die div's oder een class flex-Container staat*/
+            height: 280px;
+            width: 320px;
+        }
+
+        @media screen and (max-width: 980px) {
+            .flex-Container {
+                display: flex;
+                height: auto;
+                flex-direction: column;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                margin-left: 3%;
+                margin-right: 3%;
+                align-items: center;
+                background-color: pink;
+            }
+
+            .flex-Container>div>img {
+                /*alles img die onder een div staan en die div's oder een class flex-Container staat*/
+                height: 180px;
+                width: 220px;
+            }
+
+            ul {
+                display: flex;
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                width: 100%;
+                background-color: #f1f1f1;
+                flex-direction: column;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <ul class="horizontaal">
+            <li><a class="active" href="004(links%20tussen%20paginas%20en%20opmaak%20links).html">Home</a></li>
+            <li><a href="004.1(links%20tussen%20paginas%20en%20opmaak%20links).html">Music</a></li>
+        </ul>
+    </div>
+
+
+    <div class="flex-Container">
+        <div><img src="bmw-m3-e30.jpg"></div>
+        <div><img src="nissan_skyline_gtr_r34_blue_front_view_99436_1920x1080.jpg"></div>
+        <div><img src="tumblr_pkk7pn2lIv1r7ajuo_540.jpg"></div>
+        <div><img src="bmw-m3-e30.jpg"></div>
+        <div><img src="nissan_skyline_gtr_r34_blue_front_view_99436_1920x1080.jpg"></div>
+        <div><img src="tumblr_pkk7pn2lIv1r7ajuo_540.jpg"></div>
+        <div><img src="bmw-m3-e30.jpg"></div>
+        <div><img src="nissan_skyline_gtr_r34_blue_front_view_99436_1920x1080.jpg"></div>
+        <div><img src="tumblr_pkk7pn2lIv1r7ajuo_540.jpg"></div>
+        <div><img src="bmw-m3-e30.jpg"></div>
+        <div><img src="nissan_skyline_gtr_r34_blue_front_view_99436_1920x1080.jpg"></div>
+        <div><img src="tumblr_pkk7pn2lIv1r7ajuo_540.jpg"></div>
+    </div>
+</body>
+
+</html>
