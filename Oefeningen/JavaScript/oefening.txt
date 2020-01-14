@@ -1,0 +1,19 @@
+1) Maak een html file en aparte java script file aan die je linkt. In het html document staat een knop met de tekst 'counter'. 
+Bij het klikken op deze knop wordt geteld hoe vaak op de knop geklikt is.
+Deze informatie wordt in een p tag in de html file weggeschreven.
+
+2) Maak een circkel aan in css, deze beweegt in een animatie links en rechts over het scherm.
+
+	a) Bij het klikken op de circkel wordt een counter geincrementeerd (variabele: imageclicked. Maak gebruik van het onclick event), deze counter is zichtbaar bovenaan op de pagina.
+
+	b) Iedere keer dat de circkel werd aangeklikt wordt de image 1px kleiner.
+
+	c) Indien de image of cirkel 0px groot is, verschijnt op het scherm een boodschap, vb: 'u hebt het spel uitgespeeld' of iets dergelijks.
+
+	d) Bij het klikken op deze cirkel past de animatie zich aan door van links naar rechts te bewegen, naar van boven naar onder te bewegen.
+
+	e) Bij het klikken op de cirkel past de animatie zich random aan.
+
+	f) Bij het tonen van de boodschap 'u hebt het spel uitgespeeld', wordt ook de tijd afgeprint die nodig was om het spel uit te spelen.
+
+	g) Na het uitspelen van het spel, verschijnt er een knop 'play again', die het spel terug initialiseerd.

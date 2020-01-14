@@ -2,14 +2,44 @@
 <html lang="">
 
 <head>
-	<title>Example Title</title>
-    <script type="text/javascript" src=""></script>
+    <title>Example Title</title>
+    <script type="text/javascript" src="002.js">
+    </script>
+    <script src="window.alert(exturnal).js"></script>
+    <style>
+        #cirkel {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            border-radius: 50px;
+            position: relative;
+            animation-name: bewegen;
+            animation-duration: 12s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes bewegen {
+            0% {left: 0px;}
+            50% {left: 94%;}
+            100% {left: 0px;}
+        }
+        
+        @keyframes bewegen2 {
+            0% {left:0px; top:0px;}
+            50% {left:300px; top:0px;}
+            100% {left:0px; top:400px;}
+        }
+
+    </style>
 </head>
 
 <body>
+    <div style="width:100%;">
+        <p id="hoeveelheid">0</p>
+        <div id="cirkel" onclick="oef2()"></div>
+        
+    </div>
 
-	
-    
 </body>
 
 </html>
