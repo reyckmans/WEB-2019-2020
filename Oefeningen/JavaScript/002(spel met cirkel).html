@@ -14,20 +14,38 @@
             border-radius: 50px;
             position: relative;
             animation-name: bewegen;
-            animation-duration: 12s;
+            animation-duration: 10s;
             animation-iteration-count: infinite;
         }
 
         @keyframes bewegen {
-            0% {left: 0px;}
+            0% {left: 600px;}
             50% {left: 94%;}
             100% {left: 0px;}
         }
         
         @keyframes bewegen2 {
-            0% {left:0px; top:0px;}
-            50% {left:300px; top:0px;}
+            0% {left:300px; top:600px;}
+            50% {left:300px; top:50px;}
             100% {left:0px; top:400px;}
+        }
+        
+        @keyframes bewegen3 {
+            0% {left:20px; top:100px;}
+            50% {left:900px; top:500px;}
+            100% {left:0px; top:600px;}
+        }
+        
+        @keyframes bewegen4 {
+            0% {left:900px; top:400px;}
+            50% {left:900px; top:0px;}
+            100% {left:500px; top:700px;}
+        }
+        
+        @keyframes bewegen5 {
+            0% {left:300px; top:100px;}
+            50% {left:400px; top:600px;}
+            100% {left:500px; top:700px;}
         }
 
     </style>
@@ -35,6 +53,9 @@
 
 <body>
     <div style="width:100%;">
+        <p>Timer:</p>
+        <p id="timer">0</p>
+        <p>Counter:</p>
         <p id="hoeveelheid">0</p>
         <div id="cirkel" onclick="oef2()"></div>
         
